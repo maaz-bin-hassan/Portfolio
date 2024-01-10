@@ -267,21 +267,21 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #000000;
+  color: #ffffff;
 }
 
 #hero p {
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #000000;
+  color: #ffffff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid #ffffff;
 }
 
 @media (min-width: 1024px) {
@@ -1150,4 +1150,5 @@ section {
       );
       box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     }
-   
+    .text-glow{
+    text-shadow: rgb(0, 140, 255) 0px 0px 39px;}
