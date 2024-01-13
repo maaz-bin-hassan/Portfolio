@@ -430,7 +430,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -466,6 +466,23 @@ section {
   background-color: #149ddd;
 }
 
+/* Add these styles to your CSS file */
+.skills.section-bg {
+  background-color: #ffffff; /* Set the background color to white in light mode */
+}
+
+body.dark-mode .skills.section-bg {
+  background-color: #333333; /* Set the background color to a dark color in dark mode */
+}
+/* Add these styles to your CSS file */
+body.dark-mode .skills.section-bg h2,
+body.dark-mode .skills-content .progress .skill,
+body.dark-mode .progress-bar-wrap .progress-bar,
+body.dark-mode .progress-bar-wrap .val {
+  color: #ffffff; /* Set the text color to white for the "Skills" and other words in dark mode */
+}
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -475,6 +492,16 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
+}
+/* Add these styles to your CSS file */
+body.dark-mode #resume.resume h3,
+body.dark-mode #resume.resume h4
+{
+  color: #ffffff; /* Set the text color to white for h3, h4, and h5 in dark mode */
+}
+/* Add these styles to your CSS file */
+body.dark-mode #resume.resume h5 {
+  color: #87CEEB; /* Set the text color to sky blue for h5 in dark mode */
 }
 
 .resume .resume-item {
@@ -494,14 +521,6 @@ section {
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #e4edf9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
 
 .resume .resume-item ul {
   padding-left: 20px;
@@ -533,6 +552,13 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+/* Add these styles to your CSS file */
+/* Add these styles to your CSS file */
+body.dark-mode #portfolio.section-bg {
+  background-color: #1a1a1a; /* Set the background color to a dark color in dark mode */
+  color: white; /* Set the text color to white in dark mode */
+}
+
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -1171,7 +1197,20 @@ body.dark-mode {
   --text-color-dark: #ffffff;
   background-color: var(--background-color-dark);
   color: var(--text-color-dark);
+  
 }
+/* Add these styles to your CSS file */
+body.dark-mode .purecounter {
+  color: #ffffff; /* Set the text color for the counter in dark mode */
+}
+
+/* Add these styles to your CSS file */
+body.dark-mode .count-box p {
+  color: #ffffff; /* Set the text color for "Projects" and "Happy Clients" in dark mode */
+}
+
+
+
 .bn30 {
   border: 5em;
   cursor: pointer;
