@@ -472,7 +472,7 @@ section {
 }
 
 body.dark-mode .skills.section-bg {
-  background-color: #333333; /* Set the background color to a dark color in dark mode */
+  background-color: #1a1a1a; /* Set the background color to a dark color in dark mode */
 }
 /* Add these styles to your CSS file */
 body.dark-mode .skills.section-bg h2,
